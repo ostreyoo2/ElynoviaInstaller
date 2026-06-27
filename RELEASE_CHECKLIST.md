@@ -7,11 +7,14 @@
 - [ ] `npm.cmd run build` przechodzi.
 - [ ] `npm.cmd run tauri build` tworzy instalator NSIS.
 - [ ] `verify-installer-assets.ps1` potwierdza komplet brandingu.
+- [ ] Header ma dokładnie 150×57 px, a sidebar 164×314 px.
 - [ ] `copy-release-artifacts.ps1` kopiuje instalator do `artifacts/`.
 
 ## Instalacja
 
 - [ ] Instalator pokazuje nazwę TriRise i czytelne kontrolki.
+- [ ] Header i sidebar TriRise wyświetlają się bez rozciągnięcia lub przycięcia.
+- [ ] Standardowe przyciski pozostają widoczne na jasnym i ciemnym motywie Windows.
 - [ ] Instalacja dla bieżącego użytkownika kończy się poprawnie.
 - [ ] Skrót na pulpicie i w menu Start nazywa się TriRise.
 - [ ] Skrót oraz okno aplikacji mają ikonę TriRise.

@@ -6,6 +6,8 @@ Lokalne repozytorium wspierające przygotowanie i weryfikację instalatora TriRi
 
 Repozytorium zawiera branding instalatora, dokumentację wydania oraz bezpieczne skrypty pomocnicze. Nie zawiera kodu aplikacji, danych użytkownika ani gotowych instalatorów śledzonych przez Git.
 
+Status `INSTALLER-REPO-02`: przygotowano natywne assety NSIS o bezpiecznych wymiarach, większe podglądy PNG oraz plan dark brandingu bez modyfikowania systemowych kontrolek instalatora.
+
 Główny projekt aplikacji pozostaje w:
 
 ```text
@@ -38,6 +40,12 @@ Weryfikacja brandingu:
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\verify-installer-assets.ps1
 ```
 
+Ponowne wygenerowanie finalnych bitmap z zapisanych źródeł:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\generate-installer-assets.ps1
+```
+
 Gotowy plik trafia do lokalnego katalogu `artifacts/`, który jest ignorowany przez Git.
 
 ## Zasady bezpieczeństwa
@@ -47,6 +55,7 @@ Gotowy plik trafia do lokalnego katalogu `artifacts/`, który jest ignorowany pr
 - Nie wykonuj `git push` bez wyraźnej zgody właściciela.
 - Nie zmieniaj z tego repo modeli, Dexie, backupu ani logiki aplikacji.
 - Czytelność instalatora ma pierwszeństwo przed eksperymentalnym pełnym dark mode.
+- Przykład bezpiecznej konfiguracji znajduje się w `nsis/examples/nsis-branding-snippet.md`.
 
 ## Branding
 
