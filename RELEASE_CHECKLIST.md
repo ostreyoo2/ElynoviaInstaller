@@ -1,0 +1,34 @@
+# TriRise Release Checklist
+
+## Build
+
+- [ ] `npm.cmd run test` przechodzi w głównym projekcie.
+- [ ] `npm.cmd run lint` przechodzi.
+- [ ] `npm.cmd run build` przechodzi.
+- [ ] `npm.cmd run tauri build` tworzy instalator NSIS.
+- [ ] `verify-installer-assets.ps1` potwierdza komplet brandingu.
+- [ ] `copy-release-artifacts.ps1` kopiuje instalator do `artifacts/`.
+
+## Instalacja
+
+- [ ] Instalator pokazuje nazwę TriRise i czytelne kontrolki.
+- [ ] Instalacja dla bieżącego użytkownika kończy się poprawnie.
+- [ ] Skrót na pulpicie i w menu Start nazywa się TriRise.
+- [ ] Skrót oraz okno aplikacji mają ikonę TriRise.
+- [ ] Nie pozostał aktywny skrót PortfelPilot.
+
+## Smoke test
+
+- [ ] Home i sidebar nie pokazują uszkodzonych obrazów.
+- [ ] PL/EN przełącza się bez restartu.
+- [ ] Finanse, Forma, Dieta i Ustawienia otwierają się.
+- [ ] Eksport i import backupu JSON są dostępne; nie używaj prywatnych danych bez potrzeby.
+- [ ] Zamknięcie i ponowne uruchomienie aplikacji działa.
+- [ ] Uninstall i reinstall nie pozostawiają błędnego skrótu.
+
+## Publikacja testerska
+
+- [ ] Plik `.exe` nie jest śledzony przez Git.
+- [ ] Nazwa pliku i rozmiar zostały zapisane w informacji wydania.
+- [ ] Wiadomość dla testerów została zaktualizowana.
+- [ ] Instalator został przesłany na Discord dopiero po ręcznym smoke teście.
