@@ -34,10 +34,10 @@ Prywatne lokalne centrum rozwoju.
 | `tririse-installer-header-source.png` | źródło | wygenerowane tło szerokie |
 | `tririse-installer-sidebar-source.png` | źródło | wygenerowane tło pionowe |
 
-Finalne bitmapy można odtworzyć poleceniem:
+Finalne bitmapy są projektowane bezpośrednio w rozmiarach 150×57 i 164×314. Nie powstają przez zmniejszanie dużych kompozycji. Można je odtworzyć poleceniem:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\generate-installer-assets.ps1
 ```
 
-Źródłowe tła zostały wygenerowane przy użyciu wbudowanego narzędzia `image_gen` w palecie TriRise, bez tekstu i bez generowanego logo. Oryginalny znak i dokładny tekst zostały nałożone deterministycznie przez skrypt.
+Pliki `*-source.png` zachowano jako wcześniejsze koncepcje wizualne. Aktualny generator używa wyłącznie oryginalnego znaku TriRise i rysuje uproszczone tło, tekst oraz linie bezpośrednio w finalnej rozdzielczości. Tagline usunięto z małych bitmap dla lepszej ostrości.

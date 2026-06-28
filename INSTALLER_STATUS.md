@@ -10,7 +10,8 @@
 - Język instalatora: English
 - Identyfikator techniczny aplikacji: `pl.portfelpilot.app`
 - Publiczna nazwa instalatora i skrótów: TriRise
-- Branding assets: `INSTALLER-REPO-02` przygotowane, jeszcze niepodpięte do głównego repo
+- Branding assets: header/sidebar są podpięte w głównym repo aplikacji
+- Sharp assets: `INSTALLER-REPO-04` przygotowane bezpośrednio w natywnych wymiarach NSIS
 
 ## Branding
 
@@ -20,7 +21,7 @@
 - Logo i źródła ikon: dostępne w `branding/`
 - Header NSIS: BMP 150×57 + PNG preview
 - Sidebar NSIS: BMP 164×314 + PNG preview
-- Źródła wysokiej rozdzielczości: zapisane w `branding/installer/`
+- Finalne bitmapy są rysowane bezpośrednio w natywnych wymiarach NSIS
 - Widoczne legacy branding PortfelPilot: niedozwolone
 
 ## Assety
@@ -33,6 +34,4 @@ Standardowy instalator NSIS nie otrzymał ryzykownego pełnego dark theme. Pełn
 
 ## Dalsze opcje
 
-- Skopiować zatwierdzone BMP do `src-tauri/installer-assets/` w osobnym etapie integracyjnym.
-- Podpiąć `headerImage` i `sidebarImage` według przykładu konfiguracji.
 - Przetestować instalację, upgrade i uninstall na Windows 10 i Windows 11.
