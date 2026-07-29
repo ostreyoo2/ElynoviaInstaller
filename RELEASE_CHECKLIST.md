@@ -31,6 +31,10 @@
 
 ## Publikacja testerska
 
+- [ ] Workflow w prywatnym repo źródłowym zakończył się utworzeniem draftu release.
+- [ ] Draft zawiera instalator NSIS, odpowiadający plik `.sig` i `latest.json`.
+- [ ] `latest.json` wskazuje publiczny URL repo `ostreyoo2/TriRiseInstaller`.
+- [ ] Draft został sprawdzony ręcznie przed publiczną publikacją.
 - [ ] Plik `.exe` nie jest śledzony przez Git.
 - [ ] Nazwa pliku i rozmiar zostały zapisane w informacji wydania.
 - [ ] Wiadomość dla testerów została zaktualizowana.
