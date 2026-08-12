@@ -1,37 +1,15 @@
-# Installer Status
+# Elynovia Installer Status
 
-## Aktualny stan
-
-- Produkt: TriRise
-- Wersja: 0.3.0
+- Produkt: Elynovia
+- Kanał aktualizacji: `ostreyoo2/ElynoviaInstaller`
+- Bieżące wydanie podczas migracji repozytorium: `v0.4.5`
 - Platforma: Windows x64
 - Technologia: Tauri 2 + NSIS
 - Tryb instalacji: current user
 - Język instalatora: English
-- Identyfikator techniczny aplikacji: `pl.portfelpilot.app`
-- Publiczna nazwa instalatora i skrótów: TriRise
-- Branding assets: header/sidebar są podpięte w głównym repo aplikacji
-- Sharp assets: `INSTALLER-REPO-04` przygotowane bezpośrednio w natywnych wymiarach NSIS
+- Identyfikator zgodności: `pl.portfelpilot.app`
+- Publiczna nazwa instalatora i skrótów: Elynovia
 
-## Branding
+Aktualne wydania oraz instalator używają brandingu Elynovia. Starsze nazwy są dopuszczalne wyłącznie w historii Git i jawnej warstwie zgodności.
 
-- Ikona exe: TriRise
-- Ikona instalatora: TriRise
-- Ikona skrótu: pobierana z exe TriRise
-- Logo i źródła ikon: dostępne w `branding/`
-- Header NSIS: BMP 150×57 + PNG preview
-- Sidebar NSIS: BMP 164×314 + PNG preview
-- Finalne bitmapy są rysowane bezpośrednio w natywnych wymiarach NSIS
-- Widoczne legacy branding PortfelPilot: niedozwolone
-
-## Assety
-
-Wymagane pliki są kontrolowane przez `scripts/verify-installer-assets.ps1`.
-
-## Ograniczenia
-
-Standardowy instalator NSIS nie otrzymał ryzykownego pełnego dark theme. Pełne ręczne kolorowanie kontrolek może powodować niewidoczne przyciski lub problemy zależne od wersji Windows. Przygotowany branding ogranicza się do bezpiecznych bitmap header/sidebar, ikony i krótkich tekstów.
-
-## Dalsze opcje
-
-- Przetestować instalację, upgrade i uninstall na Windows 10 i Windows 11.
+Przed publikacją należy sprawdzić instalację, aktualizację i deinstalację oraz pobranie `latest.json` z publicznego kanału.
