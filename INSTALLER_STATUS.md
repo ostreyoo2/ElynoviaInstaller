@@ -7,9 +7,4 @@
 - Technologia: Tauri 2 + NSIS
 - Tryb instalacji: current user
 - Język instalatora: English
-- Identyfikator zgodności: `pl.portfelpilot.app`
 - Publiczna nazwa instalatora i skrótów: Elynovia
-
-Aktualne wydania oraz instalator używają brandingu Elynovia. Starsze nazwy są dopuszczalne wyłącznie w historii Git i jawnej warstwie zgodności.
-
-Przed publikacją należy sprawdzić instalację, aktualizację i deinstalację oraz pobranie `latest.json` z publicznego kanału.
