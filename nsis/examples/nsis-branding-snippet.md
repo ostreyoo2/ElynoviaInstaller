@@ -1,14 +1,14 @@
 # NSIS Branding Snippet
 
-Referencyjny fragment do zastosowania dopiero po skopiowaniu bitmap do głównego repo aplikacji:
+Referencyjny fragment konfiguracji prywatnego repo aplikacji:
 
 ```json
 {
   "bundle": {
     "windows": {
       "nsis": {
-        "headerImage": "installer-assets/tririse-installer-header.bmp",
-        "sidebarImage": "installer-assets/tririse-installer-sidebar.bmp",
+        "headerImage": "installer-assets/elynovia-nsis-header.bmp",
+        "sidebarImage": "installer-assets/elynovia-nsis-sidebar.bmp",
         "installerIcon": "icons/icon.ico",
         "uninstallerIcon": "icons/icon.ico",
         "installerHooks": "windows/nsis-hooks.nsh",
@@ -20,4 +20,4 @@ Referencyjny fragment do zastosowania dopiero po skopiowaniu bitmap do główneg
 }
 ```
 
-Ścieżki są względne wobec `src-tauri/tauri.conf.json`. Fragment nie jest automatycznie stosowany przez repo instalatora.
+Ścieżki są względne wobec `src-tauri/tauri.conf.json`.
