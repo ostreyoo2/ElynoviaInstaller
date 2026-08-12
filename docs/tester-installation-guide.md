@@ -1,11 +1,11 @@
 # Instrukcja instalacji dla testera
 
-1. Pobierz instalator wyłącznie z wiadomości właściciela projektu.
-2. Sprawdź, czy nazwa pliku zaczyna się od `TriRise_`.
-3. Uruchom instalator i zakończ instalację dla bieżącego użytkownika.
-4. Sprawdź nazwę i ikonę skrótu TriRise.
-5. Uruchom aplikację i sprawdź Home, sidebar oraz brak uszkodzonych obrazów.
-6. Przełącz PL/EN i otwórz Finanse, Formę, Dietę oraz Ustawienia.
-7. Zamknij aplikację i uruchom ją ponownie.
+1. Pobierz instalator z oficjalnego wydania Elynovia.
+2. Sprawdź, czy nazwa pliku zaczyna się od `Elynovia_`.
+3. Uruchom instalator dla bieżącego użytkownika.
+4. Sprawdź nazwę i ikonę skrótu Elynovia.
+5. Uruchom aplikację i sprawdź Elynovia Nexus oraz trzy filary.
+6. Przełącz PL/EN, zamknij aplikację i uruchom ją ponownie.
+7. Przy aktualizacji potwierdź zachowanie lokalnych danych.
 
-Nie importuj prawdziwych danych finansowych, backupów ani eksportów XTB, jeśli nie testujesz świadomie tych funkcji.
+Nie importuj prawdziwych danych finansowych, backupów ani eksportów XTB bez świadomego testu tych funkcji.
