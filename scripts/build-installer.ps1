@@ -1,18 +1,15 @@
 [CmdletBinding()]
 param(
+  [Parameter(Mandatory = $true)]
   [string]$AppProjectPath
 )
 
 $ErrorActionPreference = 'Stop'
-$repoRoot = Split-Path $PSScriptRoot -Parent
-if (-not $AppProjectPath) {
-  $AppProjectPath = Join-Path $repoRoot '..\PortfelPilot'
-}
 $appRoot = [System.IO.Path]::GetFullPath($AppProjectPath)
 $copyScript = Join-Path $PSScriptRoot 'copy-release-artifacts.ps1'
 
 if (-not (Test-Path -LiteralPath (Join-Path $appRoot 'package.json'))) {
-  throw "App project not found: $appRoot"
+  throw "Elynovia project not found: $appRoot"
 }
 
 Push-Location $appRoot
